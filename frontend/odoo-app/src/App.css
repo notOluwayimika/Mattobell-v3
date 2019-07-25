@@ -1,0 +1,549 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#navbarlogo{
+	width: 60px;
+	height: 60px
+}
+nav#topbar{
+	padding : 0 50px;
+	background: rgb(255, 255, 255);
+	transition: background 1s;
+		
+}
+#map{
+	height:100%
+}
+.topbar{
+	position: sticky;
+	transition: background 1s;
+}
+.scrolled {
+    background: rgb(32,70,102)!important;
+    transition: background 1s;
+}
+#logoimglink{
+	padding: 0;
+}
+.bluetext{
+	color: #2980b9
+}
+.HPOL{
+	width:100%!important;
+	height:75%!important; 
+	margin: auto 0
+}
+.text-block-area{
+	background:#2980b9;
+	color:white
+}
+.navbar-light .navbar-nav .nav-link {
+	font-size: 1.2rem;
+	color: white
+}
+hr{
+	margin: 0!important;
+}
+#supplychainimg{
+	margin: 0 auto
+}
+.featureicon{
+	width:137px;
+	height:85px
+}
+.bluehr{
+	border:1px solid #1D70A7;
+	
+} 
+.image_text_2{
+	background: #a2468a
+}
+#footer1{
+	background: #34495e;
+}
+.footerheading{
+	color:white
+}
+ul.li-unstyled + li{
+	color: deepskyblue
+}
+.text2{
+	background: #34495e
+}
+.circles{
+	border:1px solid #3498db;
+	border-radius: 50%;
+	background-color: #3498db;
+	width: 60px;
+	-moz-border-radius:50%;
+    -webkit-border-radius:50%;
+	padding: 20px 0;
+	text-align: center
+}
+#gradientcompany{
+	background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #2c3e50, #bdc3c7);
+background: -o-linear-gradient(left, #2c3e50, #bdc3c7);
+background: linear-gradient(to right, #2c3e50, #bdc3c7);  
+
+}
+#hardwarsalesbg{
+	background: #bdc3c7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(left, #2c3e50, #bdc3c7);
+background: -o-linear-gradient(left, #2c3e50, #bdc3c7);
+background: linear-gradient(to right, #2c3e50, #bdc3c7);  
+
+}
+#homebackground{
+	background-image: url(./images/SiteImages/homepage.jpg);
+	background-repeat: no-repeat;
+	height:500px;
+	background-size: cover;
+	background-position: top
+}
+body{
+	background-color:rgba(245,245,245,1.00);
+	font-family: 'Montserrat', sans-serif!important;
+}
+
+scrolled-text{
+	color: white!important;
+}
+default-text{
+	color: black!important;
+}
+.mt32 {
+  margin-top: 32px !important;
+}
+.mt16 {
+  margin-top: 16px !important;
+}
+.mt8 {
+  margin-top: 8px !important;
+}
+.mb32 {
+  margin-bottom: 32px !important;
+}
+.mb16 {
+  margin-bottom: 16px !important;
+}
+.mb8 {
+  margin-bottom: 8px !important;
+}
+
+.greytext{
+	color:#888888
+}
+#clickToScroll{
+	background-color: rgba(255,255,255,00)!important;
+}
+#container {
+  min-height:100%;
+  position:relative;
+}
+#header {
+  background:#ff0;
+  padding:10px;
+}
+#body {
+  padding:10px;
+  padding-bottom:60px;
+}
+#footer {
+  position:relative;
+  bottom:0;
+  width:100%;
+  height:60px;
+  background: #204666;
+  margin-top:10px;
+  color:white
+}
+#myContainer{
+	margin:0 auto;
+	width:1200px
+}
+@keyframes bgcolor {
+    0% {
+        background-color: white
+    }
+
+    30% {
+        background-color: rgb(149, 165, 166)
+    }
+
+    60% {
+        background-color: white
+    }
+
+    90% {
+        background-color: rgb(52, 152, 219)
+    }
+
+    100% {
+        background-color: lightgrey
+    }
+}
+
+
+body {
+    -webkit-animation: bgcolor 20s infinite;
+    animation: bgcolor 10s infinite;
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+	margin:0;
+  	padding:0;
+  	height:100%!important;
+}
+.checkboxcontainer {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkboxcontainer input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.checkboxcontainer:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkboxcontainer input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkboxcontainer input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkboxcontainer .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+fieldset{
+	position: absolute;
+	top: 200px;
+	left:1200px
+}
+
+#profilepic{
+	height:60px;
+	border-radius: 50%;
+}
+#commentArea{
+	background-color: white;
+	margin-bottom: 10px
+}
+.commentArea{
+	background-color: white;
+	margin-bottom:10px
+}
+#contentToScrollTo{
+	margin-top:50px
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  display: grid;
+  font-family: Avenir;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+.inp {
+  position: relative;
+  margin: auto;
+  width: 100%;
+  max-width: 280px;
+}
+.inp .label {
+  position: absolute;
+  top: 16px;
+  left: 0;
+  font-size: 16px;
+  color: #9098a9;
+  font-weight: 500;
+  transform-origin: 0 0;
+  transition: all 0.2s ease;
+}
+.inp .border {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  width: 100%;
+  background: #07f;
+  transform: scaleX(0);
+  transform-origin: 0 0;
+  transition: all 0.15s ease;
+}
+.inp input {
+  -webkit-appearance: none;
+  width: 100%;
+  border: 0;
+  font-family: inherit;
+  padding: 12px 0;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 500;
+  border-bottom: 2px solid #c8ccd4;
+  background: none;
+  border-radius: 0;
+  color: #223254;
+  transition: all 0.15s ease;
+}
+.inp input:hover {
+  background: rgba(34,50,84,0.03);
+}
+.inp input:not(:placeholder-shown) + span {
+  color: #5a667f;
+  transform: translateY(-26px) scale(0.75);
+}
+.inp input:focus {
+  background: none;
+  outline: none;
+}
+.inp input:focus + span {
+  color: #07f;
+  transform: translateY(-26px) scale(0.75);
+}
+.inp input:focus + span + .border {
+  transform: scaleX(1);
+}       
+.bgwhite{
+	background-color:white!important;
+}
+      
+
+textarea{
+	background-color:white!important;
+	resize:none
+}
+.commenttextarea{
+	border: 0;
+	border-bottom: 1px solid lightgrey;
+  	font-size: inherit;
+  	font-weight: 700;
+  	position: relative;
+	height:45px;
+	display: block;
+	padding: 10px 5px;
+ 	background: white no-repeat;
+	background-image: linear-gradient(to bottom, steelblue, steelblue), linear-gradient(to bottom, silver, silver);
+	/* sizes for the 2 images (default state) */
+	background-size: 0 2px, 100% 1px;
+	/* positions for the 2 images. Change both "50%" to "0%" or "100%" and tri again */
+	background-position: 50% 100%, 50% 100%;
+
+	/* animation solely on background-size */
+  	transition: background-size 0.3s cubic-bezier(0.64, 0.09, 0.08, 1);
+
+}
+.commenttextarea:hover{
+	background-color: rgba(1,1,1,0);
+	height: 45px
+}
+.commenttextarea:focus {
+  	color: #000;
+  	outline:none;
+	background-size: 100% 2px, 100% 1px;
+	
+}
+.commentreplybutton{
+	background-color: rgba(0,0,0,0);
+	color: grey;
+	border: 0
+}
+.commentbutton{
+	background-color:rgba(0, 0, 0, 0);
+	border: 0
+}
+.likebutton{
+	background-color: rgba(0,0,0,0);
+	border: 0
+}
+.likebutton:focus{
+	background-color: rgba(0,0,0,0);
+	border: 0;
+	outline:none
+}
+.authbutton{
+	background-color: rgba(0,0,0,0);
+	border: 0
+}
+.authbutton:focus{
+	background-color: rgba(0,0,0,0);
+	border: 0
+}
+.commenter{
+	text-transform: uppercase
+}
+.submitbutton{
+	transition: 0.5s;
+	margin-top:10px
+}
+#allblogsbackground{
+	padding-bottom: 180px;
+	padding-top: 100px;
+}
+#allblogshr{
+	border: 0.3px solid lightgrey;
+	width:5%;
+	margin: 0 auto!important
+}
+.mb8{
+	margin-bottom: 16px!important
+}
+.o_tab_nav {
+	margin: 0 auto;
+	padding: 0;
+	list-style-type: none;
+	justify-content: space-around;
+	margin-bottom: -1.42em
+}
+.o_overflow-hidden{
+	overflow:hidden
+}
+.o_tab_nav > li > a{
+	display: block;
+	padding: 20px 5px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-weight: 600;
+	font-size: 0.9em;
+	opacity:0.6;
+	font-family: "Montserrat", sans-serif;
+}
+.o_tab_nav > li{
+	text-align: -webkit-match-parent;
+	display:inline-block
+}
+.lightgreybg{
+	background-color: #e9ecef
+}
+.btn-lightgrey{
+	background-color:white;
+	color:black!important
+}
+.btn-lightgrey:hover{
+	background-color:grey;
+}
+nav-link:hover{
+	color: darkorange!important;
+}
+a{
+		transition: 0.5s
+	}
+input[type="number"]::-webkit-outer-spin-button, input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+ 
+input[type="number"] {
+    -moz-appearance: textfield;
+}	
+.btn-none{
+	border: 0;
+	background-color: rgba(0,0,0,0)
+}
+.btn-none:focus{
+	border:0!important;
+	outline:none
+}
+#addToCart{
+	width:100vw;
+	height: 100vh;
+	background-color: rgba(0,0,0, 0.6);
+	position: fixed;
+	top:0;
+	left:0
+}
+#cartAdd{
+	width: 60%;
+	height:45%;
+	background-color:white;
+	margin: 200px auto
+}
+button#hideCart{
+	color:lightgrey!important;
+	transition: 0.8s!important
+}
+button#hideCart:hover{
+	color:grey!important
+}
